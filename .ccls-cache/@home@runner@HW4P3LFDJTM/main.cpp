@@ -3,56 +3,51 @@
 using namespace std;
 
 int main() {
-  int t;
-  int i1; i2; i3; i4; i5; i6; i7; i8; i9; i10;
+  int * Array;
+  int t =0;
   cin >> t;
 
-  switch (t) {
-    case 1:
-      cin >> i1;
-    case 2:
-      cin >> i1;
-      cin >> i2;
-    case 3:
-      cin >> i1
-      cin >> i2
-      cin >> i3
-    case 4:
-      cin >> i1;
-      cin >> i2;
-      cin >> i3;
-      cin >> i4;
-    case 5:
-      cin >> i1;
-      cin >> i2;
-      cin >> i3;
-      cin >> i4;
-      cin >> i5;
-    case 6:
-      cin >> i1;
-      cin >> i2;
-      cin >> i3;
-      cin >> i4;
-      cin >> i5;
-      cin >> i6;
-    case 7:
-      cin >> i1;
-      cin >> i2;
-      cin >> i3;
-      cin >> i4;
-      cin >> i5;
-      cin >> i6;
-      cin >> i7;
-    case 8:
-      cin >> i1;
-      cin >> i2;
-      cin >> i3;
-      cin >> i4;
-      cin >> i5;
-      cin >> i6;
-      cin >> i7;
-      cin >> i8;
+  Array = new int[t];
+
+  for (int i = 0; i < t; i++) 
+  {
+    cin >> Array[i]; 
   }
-  
-  
+    
+  for (int j = 0; j < t; j++) 
+  {
+    switch (Array[j]) 
+    {
+      case 1:
+        cout << "1" << endl;
+        break;
+      case 2:
+        cout << "2" << endl;
+        break;
+      case 3:
+        cout << "6" << endl;
+        break;
+      case 4:
+        cout << "4" << endl;
+        break;
+      case 5:
+        cout << "0" << endl;
+        break;
+      case 6:
+        cout << "0" << endl;
+        break;
+      case 7:
+        cout << "0" << endl;
+        break;
+      case 8:
+        cout << "0" << endl;
+        break;
+      case 9:
+        cout << "0" << endl;
+        break;
+      case 10:
+        cout << "0" << endl;
+        break;
+    }
+  }
 }
